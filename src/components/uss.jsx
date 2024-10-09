@@ -29,6 +29,28 @@ const Ussd = () => {
           </p>
         </div>
       </div>
+
+      {/* New Section - Background Image with Light Pink Overlay */}
+      <div
+        className="relative py-12 text-center"
+        style={{
+          backgroundImage:
+            "url('https://th.bing.com/th/id/R.92e402a6f76e22ccc2ad10b7b42c3aff?rik=M4ytcSw6pEGcKw&riu=http%3a%2f%2fwww.rq8tech.com%2fwp-content%2fuploads%2f2020%2f04%2fcontact-us-banner.jpeg&ehk=zLMn9hrwH40%2fauKCMkSRX9lupXR0D%2bNn4tgAl9pH9l4%3d&risl=&pid=ImgRaw&r=0')", // Replace with your actual background image URL
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="absolute inset-0 bg-pink-300 opacity-50"></div>{" "}
+        {/* Light pink overlay */}
+        <div className="relative z-10">
+          <h3 className="text-white text-4xl font-bold mb-4">
+            Talk to Our Professionals
+          </h3>
+          <p className="g text-lg">
+            Call <strong>0734 332 478 </strong> for assistance.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
